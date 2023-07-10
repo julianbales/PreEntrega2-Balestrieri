@@ -198,6 +198,8 @@ iframe{
 /* Le puse la misma media queris que tiene el bootsrap en el menu hamburguesa */
 
 @media screen and (min-width:992px) {
+
+    /* Index */
    
     h1{
         display: none;
@@ -205,11 +207,35 @@ iframe{
     .nave-posicion{
         margin-top: 10px;
     }
-    .div-fotos{
+    
+    .section-fotos{
         margin-top: 300px;
         display: grid;
-        grid-template-columns: repeat(4, 1fr) ;
-        grid-template-rows: repeat(4, 25%) ;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 50%);
+      
     }
+    .section-fotos-p{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 50%);
+        
+    }
+    main div h4{
+        display: none;
+    }
+    .footer-index{
+        margin-top: 1000px;
+    }
+    .footer-productos{
+        margin-top: 1000px;
+    }
+    .local{
+        margin-right: 1000px;
+        margin-bottom: 50px;
+        color: aliceblue;
+        padding-top: 100px;
+
+}
 
  }
